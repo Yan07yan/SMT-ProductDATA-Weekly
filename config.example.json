@@ -1,0 +1,28 @@
+{
+  "_note": "公开模板：复制本文件为 config.json 并填入你自己的店铺代号 / 订单渠道名 / 考核目标。config.json 已被 .gitignore 排除，不会上传到仓库。本文件仅用占位符，不含任何真实店铺 ID。",
+  "saas_shop": {
+    "Aliexpress-<你的店铺1渠道名>": "SHOP_1",
+    "Aliexpress-<你的店铺2渠道名>": "SHOP_2",
+    "Aliexpress-<你的全托管渠道名>": "CLYT1"
+  },
+  "shop_file": {
+    "SHOP_1": "SHOP1-30天数据.xlsx",
+    "SHOP_2": "SHOP2-30天数据.xlsx"
+  },
+  "cat_file": {
+    "SHOP_1": "SHOP1商品总数据.xlsx",
+    "SHOP_2": "SHOP2商品总数据.xlsx"
+  },
+  "cat_week_file": {
+    "SHOP_1": "SHOP1-上周数据.xlsx",
+    "SHOP_2": "SHOP2-上周数据.xlsx"
+  },
+  "kpi": {
+    "销售额":    {"target": 100000, "unit": "CNY", "weight": 0.35, "note": "按本公司月度销售额考核填"},
+    "利润率":    {"target": 0.15,  "unit": "%",   "weight": 0.15, "note": "5分12%/10分15%（按财务或赛盒口径）"},
+    "刊登数量":  {"target": 690,   "unit": "个",  "weight": 0.10, "note": "按本月工作日与考核填"},
+    "热销链接":  {"target": 18,    "unit": "个",  "weight": 0.10, "note": "出单≥15单口径"},
+    "全托管订单": {"target": 1077, "unit": "单",  "weight": 0.15, "note": "按考核填"},
+    "滞销清理":  {"target": 0.60,  "unit": "%",   "weight": 0.10, "note": "清理占滞销品比例"}
+  }
+}

@@ -1,0 +1,23 @@
+# ===== 个人数据 & 快照（绝不提交，含真实商品 ID） =====
+_listing快照.json
+*.snapshot
+snapshots/
+
+# 个人上品台账（每日维护，含真实上架数）
+刊登数量追踪.xlsx
+
+# 个人 xlsx/xls 数据（保留 assets/ 下的模板）
+*.xlsx
+*.xls
+!assets/刊登数量追踪_模板.xlsx
+
+# ===== 个人配置（含真实店铺代号，按需提交或保留本地） =====
+# config.json 默认不提交；仓库用 config.example.json 作公开模板
+config.json
+
+# ===== 环境与日志 =====
+.env
+*.log
+__pycache__/
+*.pyc
+.DS_Store
