@@ -147,3 +147,27 @@ ae-weekly-action-report/
 - 若公司不允许公开内部店铺结构，请建 **Private** 仓库，或保持 `config.example.json` 的占位符、不要填入真实 ID。
 
 ---
+
+## 直接安装方法
+```bash
+请帮我把一个 WorkBuddy skill 从 GitHub 安装到本地，步骤如下：
+
+1. 仓库地址是 Private 仓库，你需要先确认我的 GitHub 账号已被加为 collaborator。
+   仓库地址：https://github.com/Yan07yan/SMT-ProductDATA-Weekly.git
+
+2. 用 git clone 把它克隆到 WorkBuddy 的 skills 目录：
+   git clone https://github.com/Yan07yan/SMT-ProductDATA-Weekly.git ~/.workbuddy/skills/ae-weekly-action-report
+
+3. 进入该目录，把 config.example.json 复制一份为 config.json：
+   cp ~/.workbuddy/skills/ae-weekly-action-report/config.example.json \
+      ~/.workbuddy/skills/ae-weekly-action-report/config.json
+
+4. 打开 config.json，把里面的店铺代号和 KPI 改成我自己的（我会另外告诉你具体值）。
+
+5. 装好后确认：
+   - 目录 ~/.workbuddy/skills/ae-weekly-action-report/ 存在
+   - 里面有 SKILL.md、README.md、scripts/build_weekly_action.py、config.json
+   - 告诉我下一步怎么用
+```
+
+---
